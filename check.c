@@ -19,3 +19,14 @@ int main()
     printf("%d is not a prime number.",n);
   return 0;
 }
+
+//add a method to check whether a number is odd or not.
+int main()
+{
+  int n;
+  if(n%2==1)
+    printf("%d is an odd number.",n);
+  else
+    printf("%d is not an odd number.",n);
+  return 0;
+}
